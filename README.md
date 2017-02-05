@@ -32,12 +32,17 @@ TODO
 - Plugin versioning
   The Unexpected plugin system was designed primarily for node projects. While we have been able to enforce various package.json conventions that avoid versioning issues, static builds of Unexpected plugins for use within the browser can cause problems when they share underlying dependencies.
   
+  [There is a issue on the subject as well](https://github.com/unexpectedjs/unexpected/issues/334).
+  
   _Discuss strategies for isolating plugin internals from end-user test suites._
   
 - Challenges running tests
   Unexpected integrates with existing test running infrastructure through the assertion raising mechanism. However Unexpected would otherwise be able to give much more useful output for smaller chunks of failing tests, this is becoming a limitation. In addition, a large amount of complexity exists in the implementation supporting synchronous throws and also creates the plugin author footgun requiring an addition level of `expect.promise(function () { … })` wrapping.
   
   _Discuss alternative test running strategies._
+  
+- Future of middle-rocket assertions
+  [See this issue](https://github.com/unexpectedjs/unexpected/issues/358).
   
 - How do we increase adoption
  - How do we encouraging new contributors?
