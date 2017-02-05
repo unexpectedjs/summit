@@ -12,4 +12,7 @@ February 18th at Zendesk ([map](https://www.google.dk/maps/place/Zendesk+ApS/@55
 
 # Agenda
 
+* State of Unexpected (Sune)
+* ...
+
 TODO
