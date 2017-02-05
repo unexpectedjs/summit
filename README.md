@@ -55,4 +55,14 @@ TODO
  - Quality of the error output
  - Performance
  - Examples
+ 
+- Should we split core up in multiple libraries?
+ - types
+ - inspection
+ - diffs
+ - assertion dispatch
   
+# Hackaton ideas
+
+- Limit the error output of unexpected-react by dotting out subtrees without conflicts.
+- Improve the type lookup performance by hardcoding the core type lookup and make compatibility tests.
