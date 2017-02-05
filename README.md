@@ -4,7 +4,7 @@ Planing repository for the summit.
 
 Feel free to change the files in the repository directly on master.
 
-There is some information on the earlier planing issue that can be found [here](https://github.com/unexpectedjs/unexpected/issues/337). Let's migretate the important information to this repo.
+There is some information on the earlier planing issue that can be found [here](https://github.com/unexpectedjs/unexpected/issues/337). I migrated most of it over into the [discussion](#discussion) section.
 
 # Time and place
 
