@@ -43,5 +43,16 @@ TODO
  - How do we encouraging new contributors?
  - How do we get better at marketing? 
  - How we ease the transition from other library?
+ - Blogs?
+ - Screencasts?
+ - Presentations?
 
 - Should we do roadmaps for Unexpected core?
+
+- How can we improve the overall impression of the Unexpected ecosystem?
+ - Documentation
+ - Backwards compatibility
+ - Quality of the error output
+ - Performance
+ - Examples
+  
