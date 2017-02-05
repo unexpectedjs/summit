@@ -62,7 +62,7 @@ TODO
  - diffs
  - assertion dispatch
   
-# Hackaton ideas
+# Hackathon ideas
 
 - Limit the error output of unexpected-react by dotting out subtrees without conflicts.
 - Improve the type lookup performance by hardcoding the core type lookup and make compatibility tests.
