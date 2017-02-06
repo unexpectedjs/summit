@@ -68,6 +68,10 @@ TODO
  - diffs
  - assertion dispatch
 
+- TypeScript
+ - it may be possible to automatically build / generate typescript type definitions for the assertions
+   (per plugin), is this something we'd look at?
+
 - "Plugins" that require wrapping the top level expect, and thus cannot install
   themselves via the `expect.use`. Discuss and see if we can learn something
   from these experiments:
