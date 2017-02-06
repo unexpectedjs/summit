@@ -67,6 +67,26 @@ TODO
  - diffs
  - assertion dispatch
 
+- "Plugins" that require wrapping the top level expect, and thus cannot install
+  themselves via the `expect.use`. Discuss and see if we can learn something
+  from these experiments:
+ - [fixpect](https://github.com/papandreou/fixpect), tries to update the
+   expected in the test suite source files so that the tests pass.
+   Requires wrapping the top-level `expect` so that it can by try...catched
+   and non-oathbroken promises can be gathered.
+ - [consider](https://github.com/papandreou/consider), wait for all promises
+   in `afterEach` instead of relying on exceptions.
+   Requires wrapping the top-level `expect` so that it can by try...catched
+   and non-oathbroken promises can be gathered.
+ - [uncontemplated](https://github.com/papandreou/uncontemplated), adds support
+   for writing assertions inside ES6 template strings. Sort of in a category
+   of its own as its API cannot coexist with that of the regular `expect`
+   because of the way the "tagged template" function is invoked.
+   Requires wrapping the top-level `expect` so that it can turn the template
+   into valid `expect` syntax.
+ - Unexpected's built-in footgun protection, in case we want to move it into
+   an "internal plugin" of sorts, or maybe even move it out of core.
+
 # Hackathon ideas
 
 - Limit the error output of unexpected-react by dotting out subtrees without conflicts.
