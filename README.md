@@ -21,32 +21,32 @@ TODO
 
 - Output
   Unexpected provides extremely high quality output that usefully describes failures and critically is helpful in diagnosing/correcting problems. That said, it is probably fair to say we’ve erred on the side of outputting more (absolutely the correct default) but that this has been strained in a few cases dealing with huge amounts of data or large objects etc.
-  
+
   _Discuss changes and/or specific rules around the output we generate._
-  
+
 - Context
   Our flexible plugin APIs have allowed extensins of growing complexity, many of which modify their environment (unexpected-fs, unexpected-mitm, unexpected-mxhr). While these assertions work well individually, issues arise for composition and inspecting the changed environment (unexpected-couchdb) requires complex one off solutions. In addition, a number plugins that provide assertions of ‘local system state’ would benefit from such support (e.g. unexpected-event).
-  
+
   _Discuss context as a generic API to address these use-cases._
-  
+
 - Plugin versioning
   The Unexpected plugin system was designed primarily for node projects. While we have been able to enforce various package.json conventions that avoid versioning issues, static builds of Unexpected plugins for use within the browser can cause problems when they share underlying dependencies.
-  
+
   [There is a issue on the subject as well](https://github.com/unexpectedjs/unexpected/issues/334).
-  
+
   _Discuss strategies for isolating plugin internals from end-user test suites._
-  
+
 - Challenges running tests
   Unexpected integrates with existing test running infrastructure through the assertion raising mechanism. However Unexpected would otherwise be able to give much more useful output for smaller chunks of failing tests, this is becoming a limitation. In addition, a large amount of complexity exists in the implementation supporting synchronous throws and also creates the plugin author footgun requiring an addition level of `expect.promise(function () { … })` wrapping.
-  
+
   _Discuss alternative test running strategies._
-  
+
 - Future of middle-rocket assertions
   [See this issue](https://github.com/unexpectedjs/unexpected/issues/358).
-  
+
 - How do we increase adoption
  - How do we encouraging new contributors?
- - How do we get better at marketing? 
+ - How do we get better at marketing?
  - How we ease the transition from other library?
  - Blogs?
  - Screencasts?
@@ -60,13 +60,13 @@ TODO
  - Quality of the error output
  - Performance
  - Examples
- 
+
 - Should we split core up in multiple libraries?
  - types
  - inspection
  - diffs
  - assertion dispatch
-  
+
 # Hackathon ideas
 
 - Limit the error output of unexpected-react by dotting out subtrees without conflicts.
