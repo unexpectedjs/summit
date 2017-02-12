@@ -1,0 +1,15 @@
+{
+  "name": "state-of-unexpected",
+  "version": "1.0.0",
+  "description": "Unexpected Summit presentation",
+  "author": "Sune Simonsen",
+  "license": "MIT",
+  "scripts": {
+    "watch": "run-when-changed --watch presentation.md --exec 'unexpected-presentation presentation.md'"
+  },
+  "dependencies": {
+    "run-when-changed": "2.0.0",
+    "unexpected": "10.25.0",
+    "unexpected-presentation": "2.9.0"
+  }
+}
