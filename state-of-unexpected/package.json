@@ -5,6 +5,7 @@
   "author": "Sune Simonsen",
   "license": "MIT",
   "scripts": {
+    "start": "unexpected-presentation presentation.md && open build/index.html",
     "watch": "run-when-changed --watch presentation.md --exec 'unexpected-presentation presentation.md'"
   },
   "dependencies": {
