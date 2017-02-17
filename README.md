@@ -10,6 +10,11 @@ There is some information on the earlier planing issue that can be found [here](
 
 February 18th 10:00 at Zendesk ([map](https://www.google.dk/maps/place/Zendesk+ApS/@55.6769832,12.5741805,17z/data=!3m1!4b1!4m5!3m4!1s0x4652531141140fcd:0xb16e28f41a8f0d08!8m2!3d55.6769802!4d12.5763692?hl=en))
 
+Contact:
+
+Email: sune@we-knowhow.dk
+Phone: 51903590
+
 # Agenda
 
 * Hello
