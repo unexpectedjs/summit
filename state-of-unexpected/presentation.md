@@ -13,7 +13,8 @@
     <tr><td></td><td>Unexpected</td><td>Should.js</td><td>Chai</td></tr>
   </thead>
   <tbody>
-    <tr><td>Dependents</td><td>269</td><td>15674</td><td>38223</td></tr>
+    <tr><td>Usage (NPM)</td><td>269</td><td>15674</td><td>38223</td></tr>
+    <tr><td>Usage (Github)</td><td>586</td><td>44.7K</td><td>123K</td></tr>
     <tr><td>Github starts</td><td>192</td><td>2536</td><td>3800</td></tr>
     <tr><td>Releases</td><td>261</td><td>42</td><td>68</td></tr>
     <tr><td>Commits</td><td>2591</td><td>367</td><td>1359</td></tr>
@@ -39,7 +40,7 @@ ASCII • HTML
 
 ---
 
-## We have can scope assertions by types
+## We can scope assertions by types
 
 ---
 
@@ -130,7 +131,7 @@ Zendesk • One • SoundCloud • Adobe
 
 ## Invade popular projects
 
--by donating a better test suite. 
+-by donating a better test suite.
 
 ---
 
