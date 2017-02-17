@@ -12,10 +12,17 @@ February 18th 10:00 at Zendesk ([map](https://www.google.dk/maps/place/Zendesk+A
 
 # Agenda
 
+* Hello
 * State of Unexpected (Sune)
-* ...
-
-TODO
+* Error output
+* Plugin versioning
+* Assertion context
+* Unexpected without throwing errors
+* future of middle-rocket assertions 
+* Should we generate TypeScript and Flow definitions for assertions
+* Andreas' crazy experiments fixpect, consider and uncontemplated
+* How do we increase adoption
+* Hackathon
 
 # Discussion
 

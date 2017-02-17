@@ -141,4 +141,13 @@ Zendesk • One • SoundCloud • Adobe
 
 # Agenda
 
-TODO
+* State of Unexpected  <span style="color: darkgreen">✓</span>
+* Error output
+* Plugin versioning
+* Assertion context
+* Unexpected without throwing errors
+* future of middle-rocket assertions
+* Should we generate TypeScript and Flow definitions for assertions
+* Andreas' crazy experiments fixpect, consider and uncontemplated
+* How do we increase adoption
+* Hackathon
