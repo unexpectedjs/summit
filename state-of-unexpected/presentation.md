@@ -1,3 +1,18 @@
+# Agenda
+
+* State of Unexpected
+* Error output
+* Plugin versioning
+* Assertion context
+* Unexpected without throwing errors
+* future of middle-rocket assertions
+* Should we generate TypeScript and Flow definitions for assertions
+* Andreas' crazy experiments fixpect, consider and uncontemplated
+* How do we increase adoption
+* Hackathon
+
+===
+
 <!-- background: "./assets/future.jpg" -->
 
 ===
@@ -136,18 +151,3 @@ Zendesk • One • SoundCloud • Adobe
 ---
 
 ## Make the site look more professional
-
-===
-
-# Agenda
-
-* State of Unexpected  <span style="color: darkgreen">✓</span>
-* Error output
-* Plugin versioning
-* Assertion context
-* Unexpected without throwing errors
-* future of middle-rocket assertions
-* Should we generate TypeScript and Flow definitions for assertions
-* Andreas' crazy experiments fixpect, consider and uncontemplated
-* How do we increase adoption
-* Hackathon
